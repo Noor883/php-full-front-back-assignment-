@@ -1,0 +1,15 @@
+
+
+#libray-hero{
+   background-image:url("style.css");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position:center ;
+}
+#ibray-hero > div{
+    background-color: rgba(240, 240n, 241, .9);
+
+}
+#libray-search-course button{
+    border:none;
+}
