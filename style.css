@@ -1,15 +1,13 @@
-
-
-#libray-hero{
-   background-image:url("style.css");
-   background-repeat: no-repeat;
-   background-size: cover;
-   background-position:center ;
+.container {
+    background-color: white;
 }
-#ibray-hero > div{
-    background-color: rgba(240, 240n, 241, .9);
 
+#players-container {
+    font-size: 1.5rem;
 }
-#libray-search-course button{
-    border:none;
+
+#winner {
+    display: none;
+    padding: 3rem;
+    background-color: yellow;
 }

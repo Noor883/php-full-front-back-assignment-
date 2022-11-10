@@ -1,18 +1,14 @@
-
+ 
 const p1Points = document.getElementById("p1-points");
-const p2Points = document.getElementB("p2-points");
-//const p3wait =document.getElementById("p3-wait");
-
+const p2Points = document.getElementById("p2-points");
 const p1Btn = document.getElementById("p1-btn");
 const p2Btn = document.getElementById("p2-btn");
-//const p3Btn  =document.getElementById("p3-btn");
 const winnerContainer = document.getElementById("winner");
 // const appImage = document.getElementsByTagName('img')[0];
 let p1Score = 0;
 let p2Score = 0;
-//let p3score =0;
 const gameOver = 5;
-//const  newgame=0;
+
 p1Btn.addEventListener("click", function (event) {
   addPoint(1);
   if (p1Score >= gameOver) {
@@ -26,13 +22,8 @@ p2Btn.addEventListener("click", function (event) {
     endGame();
   }
 });
-p3Btn.addEventListener("click", function (event) { 
-  addwait ();
-  if (p3Score = gameOver) { 
-    newgame();
-  }
-});
- document.getElementById("reset").addEventListener("click", function () {
+
+document.getElementById("reset").addEventListener("click", function () {
   p1Score = 0;
   p2Score = 0;
   p1Points.textContent = 0;
@@ -95,6 +86,7 @@ function endGame() {
       colorSwitch--;
     }
   }, 500);
+
 
 }
 
