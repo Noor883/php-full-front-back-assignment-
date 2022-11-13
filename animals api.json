@@ -1,0 +1,18 @@
+[
+    {
+    "name":"Nicobar pigeon",
+    "latin_name":"Caloenas nicobarica",
+    "animal_type":"Bird",
+    "active_time":"Diurnal",
+    "length_min":"1.25",
+    "length_max":"1.33",
+    "weight_min":"0.85",
+    "weight_max":"1",
+    "lifespan":"15",
+    "habitat":"Rainforests, dry forests, mangroves, and shrubland",
+    "diet":"Seeds,fruit and some invertebrates",
+    "geo_range":"Southeast Asian islands (Palau, Nicobar, Solomon and Philippine)",
+    "image_link":"https://upload.wikimedia.org/wikipedia/commons/c/ca/Adult_Nicobar_Pigeon.jpg",
+    "id":123
+}
+]
