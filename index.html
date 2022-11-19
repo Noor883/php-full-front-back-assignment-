@@ -18,12 +18,20 @@
     background-size: cover;
     background-position:center ;
  }
- #ibray-hero > div{
+ #libray-hero>div>div{
      background-color: rgba(240, 240n, 241, .9);
     }
     #library-search-courses button{ margin-left :20%}
-#libray-search-warapper .book{width: 15%;
-  border:none ;
+
+    #libray-search-course button:hover {
+    background-color: transparent;
+    color:black;
+}
+main{
+     margin: 4rem 15rem ;
+ }
+
+#libray-search-wrapper .card { width: 100%; 
 }
 
  </style>
@@ -31,11 +39,14 @@
 </head>
   <body>
     <header>          
-    <h2> library books </h2>
+  
     <nav class="navbar navbar-expand-lg bg-light">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">libray book</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+        data-bs-target="#navbarSupportedContent" 
+        aria-controls="navbarSupportedContent" aria-expanded="false" 
+        aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent"></div>
@@ -70,23 +81,27 @@
       </div>
     </nav>
 
-   <div id="libray-hero"  class="container-fluid">
-   <div class="d-flex  justify-content-center ">
+  <div id="libray-hero"  class="container-fluid">
+   <div class="d-flex row justify-content-center ">
       <div class="w-25  m-5  p-3  rounded">
          <p class="text-center"> find your book better </p>
          <h1 class="text text-center"> library website</h1>
-         
-         <form>
+     <form>
           <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label d-none"> search book address</label>
+           <label for="exampleInputEmail1" class="form-label d-none"> search book address</label>
             
             <div id="libray-search-course" class="d-flex">
             <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
             <button class="btn btn-outline-success" type="submit">
               <i class="fa-solid fa-magnifying-glass"></i>
-            </button>
-       </div>
-        </div>  
+           </button>
+          </div>
+         </div>
+      </form>
+      </div>
+    </div>
+  </div>
+</header>  
             
 
 
@@ -102,50 +117,69 @@
   </div>
  </div>
 
- <main class = "container">
+ <main class="container-fluid" >
   <h1  class=" text-center"> top 6 books </h1>
-  <hr class="w-50 text text-center m-auto  ">
+  <hr class="w-50  text-center m-auto ">
   <div class="container text-center">
-  <div id="#libray-search-warapper col-3 ">
+   <!-- <div class="row row-cols-1 row-cols-md-3 g-4">-->
 
- <div class="card  " style="width: 18rem;">
+  <div  id="libray-search-card-wrapper" class="mt-5 row  justify-content-center">
+ <div class="libray-search-card-wrapper  row row-cols-3  row-col-6">
+
+  <div id="#libray-search-card-wrapper row  row-col-3  ">
+   <div class=" col">
+ <div class="card ">
   <img src="bc book5 success .jpg" class="card-img-top" alt="title 1">
   <div class="card-body">
     <h5 class="book1-title">book arbic title</h5>
     <p class="text  book 1 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa">.</p>
     <a href="#" class="btn btn-primary">Go search book5</a>
   </div>
-  <div class="card" style="width: 18rem;">
+ </div>
+ 
+  <div id="#libray-search-card-wrapper row row-col-3">
+    <div class="col">
+  <div class="card">
     <img src="./back  book 6 .jpg" class="card-img-top" alt="title 6">
     <div class="card-body">
       <h5 class="book6-title">book math title</h5>
       <p class="-text  book 2bbbbbbbbbbbbbbbbbbb">.</p>
       <a href="#" class="btn btn-primary">Go search book2</a>
-    </div>
+    </div> </div>
 
- <div class="card" style="width: 18rem;">
+    <div id="#libray-search-card-wrapper row row-col-3">
+      <div class="col">
+ <div class="card">
   <img src="bc book5 success .jpg" class="card-img-top" alt="title 3">
   <div class="card-body">
     <h5 class="book1-title">book arbic title</h5>
     <p class="text book3 cccccccccccccccccccccccccc">.</p>
     <a href="#" class="btn btn-primary">Go search book3</a>
-  </div>
-  <div class="card" style="width: 18rem;">
+  </div> 
+ </div>
+
+ <div id="#libray-search-card-wrapper row row-col-3 col-">
+  <div class="col">
+  <div class="card">
     <img src="./back  book 6 .jpg" class="card-img-top" alt="title 4">
     <div class="card-body">
       <h5 class="book6-title">book math title</h5>
       <p class="text_tittle ddddddddddddddddddddddddddd ">.</p>
       <a href="#" class="btn btn-primary">Go search book4</a>
     </div>
-
- <div class="card" style="width: 18rem;">
+  <div id="#libray-search-card-wrapper row row-col-3">
+ <div class="col">
+ <div class="card">
   <img src="bc book5 success .jpg" class="card-img-top" alt="title 5">
   <div class="card-body">
     <h5 class="book1-title">book arbic title</h5>
     <p class="text-book5 eeeeeeeeeeeeeeeeeeeeeeeeeeeee">.</p>
     <a href="#" class="btn btn-primary">Go search book5</a>
   </div>
-  <div class="card" style="width: 18rem;">
+
+  <div id="#libray-search-card-wrapper row row-col-3">
+    <div class="col">
+  <div class="card" >
     <img src="./back  book 6 .jpg" class="card-img-top" alt="title 6">
     <div class="card-body">
       <h5 class="book6-title">book math title</h5>
@@ -155,7 +189,8 @@
   </div>
 </div>
 </div>
-
+</div> 
+  </div>
 </header>
   
 </main>
