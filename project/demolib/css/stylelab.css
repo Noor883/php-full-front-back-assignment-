@@ -1,0 +1,33 @@
+
+
+#libray-hero
+{
+    color: red;
+
+     background-image:url("../back\ \ book\ 6\ .jpg") ; 
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+}
+ #libray-hero>div>div{
+     background-color: rgba(240, 240n, 241, .7);
+ }
+  #libray-search-course button{
+     margin-left:-25%;
+  }
+  #libray-search-course button:hover {
+    background-color: transparent;  
+    color:black;
+}
+/* main{ 
+    margin: 4rem 15rem ;
+}
+/*
+.lab-card-wrapper.card{
+    width: 25%;
+} */
+
+#libray-search-course-wrapper .card{
+    width: 100%;
+
+}
